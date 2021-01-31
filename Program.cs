@@ -10,7 +10,10 @@ namespace CSharopOOP
         {
             //Console.WriteLine("Hello World!");
 
-            /* Laptop mackbookAir =  new MackbookAir();
+            /* 
+            
+            --FOR CLASSES AND POLYMORPHISM
+            Laptop mackbookAir =  new MackbookAir();
 
             Laptop asusZenbook =  new AsusZenbook();
 
@@ -25,6 +28,8 @@ namespace CSharopOOP
             Console.WriteLine(mackbookAir.TouchScreen);
             Console.WriteLine(asusZenbook.TouchScreen); */
 
+            //---FormatException ENCAPSULATION
+
             LaptopEncaps mackbookAir =  new MackbookAirEncaps();
 
             LaptopEncaps asusZenbook = new AsusZenbookEncaps();
@@ -32,6 +37,15 @@ namespace CSharopOOP
 
             mackbookAir.TurnOn();
             asusZenbook.TurnOn();
+            //asusZenbook.BootLoader(); gives error
+            // why can't I access asusZenbook.BootLoader();  becauise it type is set as LaptopEncaps
+            // adn BootLoader() is part of AsusZenbookEncaps not LaptopEncaps
+
+
+            AsusZenbookEncaps asusZenbook2 = new AsusZenbookEncaps();
+
+            asusZenbook2.BootLoader();
+
 
         }
     }

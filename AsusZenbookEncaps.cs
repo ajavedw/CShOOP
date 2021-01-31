@@ -1,16 +1,5 @@
 using System;
 
-// WITHOUT INTERFACE IMPLEMENTATION
-
-/* public class AsusZenbook : Laptop 
-{
-
-    public override bool TouchScreen => true;
-
-   public override void TurnOn(){
-        Console.WriteLine("Turn on zenbook");
-    }
-} */
 
 public class AsusZenbookEncaps : LaptopEncaps
 {
@@ -29,7 +18,7 @@ public class AsusZenbookEncaps : LaptopEncaps
     {
         Console.WriteLine("BIOS  ROM Process");
     }
-    private void BootLoader()
+    public void BootLoader()
     {
         Console.WriteLine("Bootloader");
     }

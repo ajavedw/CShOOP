@@ -1,12 +1,5 @@
 using System;
-// WITHOUT INTERFACE IMPLEMENTATION
-/* public class MackbookAir : Laptop 
-{
 
-    public override bool TouchScreen => false;
-} */
-
-// WITH INTERFACE IMPLEMENTATION
 
 public class MackbookAirEncaps : LaptopEncaps
 {
@@ -25,7 +18,7 @@ public class MackbookAirEncaps : LaptopEncaps
     {
         Console.WriteLine("BIOS  ROM loaded");
     }
-    private void BootROMRunning()
+    public void BootROMRunning()
     {
         Console.WriteLine("Bootrom running");
     }
