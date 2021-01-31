@@ -1,0 +1,13 @@
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\bin\Debug\netcoreapp3.1\CSharopOOP.exe
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\bin\Debug\netcoreapp3.1\CSharopOOP.deps.json
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\bin\Debug\netcoreapp3.1\CSharopOOP.runtimeconfig.json
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\bin\Debug\netcoreapp3.1\CSharopOOP.runtimeconfig.dev.json
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\bin\Debug\netcoreapp3.1\CSharopOOP.dll
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\bin\Debug\netcoreapp3.1\CSharopOOP.pdb
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\obj\Debug\netcoreapp3.1\CSharopOOP.csprojAssemblyReference.cache
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\obj\Debug\netcoreapp3.1\CSharopOOP.AssemblyInfoInputs.cache
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\obj\Debug\netcoreapp3.1\CSharopOOP.AssemblyInfo.cs
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\obj\Debug\netcoreapp3.1\CSharopOOP.csproj.CoreCompileInputs.cache
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\obj\Debug\netcoreapp3.1\CSharopOOP.dll
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\obj\Debug\netcoreapp3.1\CSharopOOP.pdb
+C:\Users\adnan\Desktop\learnNetCore\C#\CSharopOOP\obj\Debug\netcoreapp3.1\CSharopOOP.genruntimeconfig.cache

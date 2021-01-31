@@ -1,0 +1,65 @@
+Methods that are implemented from an interface are not virtual by default. You are merely providing an implementation of the contract defined in the interface definition. By marking the method as virtual, you are allowing derived classes to provide additional or separate implementation while still honoring the contract as defined.
+
+Consider this example:
+
+interface IAnimal
+{
+    string Speak();
+}
+
+class Dog : IAnimal
+{
+    public string Speak()
+    {
+        return "Bark!";
+    }
+}
+The Dog class is implementing the interface by providing an implementation of the contract IAnimal. There are no virtual methods here and no overriding.
+
+Now consider this example:
+
+interface IAnimal
+{
+    string Speak();
+}
+
+class Dog : IAnimal
+{
+    public virtual string Speak()
+    {
+        return "Bark!";
+    }
+}
+
+class GoldenRetriever : Dog
+{
+    public override string Speak()
+    {
+        return "I am a golden retriever who says " 
+                   + base.Speak();
+    }
+}
+Now the Dog class has declared Speak to be virtual which allows derived classes to provide an additional or new implementation. This does not break the contract with IAnimal as any call to the Speak method still returns a string.
+
+Ok, one last example. Remember that interfaces don't require an implementation - they only require that the contract is satisfied. This means that the interface only cares that a member exists in the implementing class that has a matching signature. This means that we could also do this:
+
+interface IAnimal
+{
+    string Speak();
+}
+
+abstract class Dog : IAnimal
+{
+    public abstract string Speak();
+}
+
+class GoldenRetriever : Dog
+{
+    public override string Speak()
+    {
+        return "I am a golden retriever";
+    }
+}
+Notice now that the Dog class provides no implementation at all for Speak yet has satisfied the requirements of the contract.
+
+Interfaces are also inherited from class to class so in all the examples above both Dog and GoldenRetriever implement the IAnimal interface. Neither class hide the Speak method - both classes implement it.
