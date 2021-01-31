@@ -5,7 +5,7 @@ namespace CSharopOOP
     class Program
     {
         //https://www.youtube.com/watch?v=JJcNullbl1o&list=PLylgIRlJtHWRqlr1gtx3UgWXIzFS2ms9N&index=4
-        //i dont get what he is saying abt dynamic polymorphism at 10:00 which is mwethod overriding
+        //I DONT GET WHAT HE IS SAYING ABT DYNAMIC POLYMORPHISM AT 10:00 WHICH IS MWETHOD OVERRIDING
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
@@ -28,8 +28,9 @@ namespace CSharopOOP
             Console.WriteLine(mackbookAir.TouchScreen);
             Console.WriteLine(asusZenbook.TouchScreen); */
 
-            //---FormatException ENCAPSULATION
-
+            //--- ENCAPSULATION
+            //https://www.youtube.com/watch?v=hXnyzlanD70&list=PLylgIRlJtHWRqlr1gtx3UgWXIzFS2ms9N&index=5
+            //ABSTRACTION IS THE CONCEPT WHILE ENCAPSULATION IS THE EXECUTION OF THAT CONCEPT
             LaptopEncaps mackbookAir =  new MackbookAirEncaps();
 
             LaptopEncaps asusZenbook = new AsusZenbookEncaps();
@@ -38,7 +39,7 @@ namespace CSharopOOP
             mackbookAir.TurnOn();
             asusZenbook.TurnOn();
             //asusZenbook.BootLoader(); gives error
-            // why can't I access asusZenbook.BootLoader();  becauise it type is set as LaptopEncaps
+            // WHY CAN'T I ACCESS ASUSZENBOOK.BOOTLOADER();  becauise it type is set as LaptopEncaps
             // adn BootLoader() is part of AsusZenbookEncaps not LaptopEncaps
 
 
